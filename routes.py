@@ -2,9 +2,9 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 
-from .database import get_db
-from .models import FocoDengue
-from .schemas import FocoCreate
+from database import get_db
+from models import FocoDengue
+from schemas import FocoCreate
 
 router = APIRouter()
 
